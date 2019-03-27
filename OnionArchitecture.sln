@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnionArchitecture.Domain.Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnionArchitecture.Domain.Interfaces", "OnionArchitecture.Domain.Interfaces\OnionArchitecture.Domain.Interfaces.csproj", "{23A65054-6F84-4A0A-83B2-E4E15283DEBE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnionArchitecture.Services.Interfaces", "OnionArchtecture.Services.Interfaces\OnionArchitecture.Services.Interfaces.csproj", "{C7139A79-B8A2-46A9-8C90-4C8B2D6740A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnionArchitecture.Services.Interfaces", "OnionArchitecture.Services.Interfaces\OnionArchitecture.Services.Interfaces.csproj", "{C7139A79-B8A2-46A9-8C90-4C8B2D6740A6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnionArchitecture.Infrastructure.Data", "OnionArchitecture.Infrastructure.Data\OnionArchitecture.Infrastructure.Data.csproj", "{3F2303D2-EC20-4FDB-AE09-B41E997C481B}"
 EndProject

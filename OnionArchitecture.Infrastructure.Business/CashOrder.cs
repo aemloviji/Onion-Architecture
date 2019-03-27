@@ -4,7 +4,7 @@ using OnionArchitecture.Services.Interfaces;
 
 namespace OnionArchitecture.Infrastructure.Business
 {
-    public class CashOrder : IOrder
+    public class CashOrder : IOrderService
     {
         public void Order(Product product)
         {

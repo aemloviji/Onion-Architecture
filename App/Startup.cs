@@ -7,8 +7,14 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using OnionApp.Infrastructure.Data;
+using OnionArchitecture.Domain.Interfaces;
+using OnionArchitecture.Infrastructure.Business;
+using OnionArchitecture.Infrastructure.Data;
+using OnionArchitecture.Services.Interfaces;
 
 namespace App
 {
@@ -33,6 +39,12 @@ namespace App
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            services.AddDbContext<OnionArchitectureContext>(options =>
+               options.UseSqlServer(Configuration.GetConnectionString("OnionArchitectureDatabase")));
+
+            services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<IOrderService, CardOrder>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

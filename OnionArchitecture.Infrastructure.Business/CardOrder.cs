@@ -4,7 +4,7 @@ using System;
 
 namespace OnionArchitecture.Infrastructure.Business
 {
-    public class CardOrder : IOrder
+    public class CardOrder : IOrderService
     {
         public void Order(Product product)
         {

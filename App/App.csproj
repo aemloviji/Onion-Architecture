@@ -9,6 +9,15 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnionArchitecture.Domain.Interfaces\OnionArchitecture.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\OnionArchitecture.Infrastructure.Business\OnionArchitecture.Infrastructure.Business.csproj" />
+    <ProjectReference Include="..\OnionArchitecture.Infrastructure.Data\OnionArchitecture.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\OnionArchitecture.Services.Interfaces\OnionArchitecture.Services.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>

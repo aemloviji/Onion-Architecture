@@ -2,7 +2,7 @@
 
 namespace OnionArchitecture.Services.Interfaces
 {
-    public interface IOrder
+    public interface IOrderService
     {
         void Order(Product product);
     }

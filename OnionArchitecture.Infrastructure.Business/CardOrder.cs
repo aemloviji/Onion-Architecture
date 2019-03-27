@@ -1,5 +1,5 @@
 ﻿using OnionArchitecture.Domain.Core;
-using OnionArchtecture.Services.Interfaces;
+using OnionArchitecture.Services.Interfaces;
 using System;
 
 namespace OnionArchitecture.Infrastructure.Business

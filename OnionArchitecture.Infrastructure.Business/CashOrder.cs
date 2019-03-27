@@ -1,6 +1,6 @@
 ﻿using System;
 using OnionArchitecture.Domain.Core;
-using OnionArchtecture.Services.Interfaces;
+using OnionArchitecture.Services.Interfaces;
 
 namespace OnionArchitecture.Infrastructure.Business
 {

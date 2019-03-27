@@ -1,6 +1,6 @@
 ﻿using OnionArchitecture.Domain.Core;
 
-namespace OnionArchtecture.Services.Interfaces
+namespace OnionArchitecture.Services.Interfaces
 {
     public interface IOrder
     {

@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OnionArchtecture.Services.Interfaces\OnionArchtecture.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\OnionArchtecture.Services.Interfaces\OnionArchitecture.Services.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>

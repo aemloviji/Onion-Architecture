@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "App\App.csproj", "{BBD0BEF2-CB7E-4F36-9A13-24DB67BFFA88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App", "App\App.csproj", "{BBD0BEF2-CB7E-4F36-9A13-24DB67BFFA88}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{E3E98CEC-AF00-4262-B67B-8A3F6C0DB5C3}"
 EndProject
@@ -11,15 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{0A8A6F9B-A951-4E59-993E-35E17F5DC381}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.Domain.Core", "OnionArchitecture.Domain.Core\OnionArchitecture.Domain.Core.csproj", "{06B6B677-9F56-4B36-ABCE-AF8C4E2E116E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnionArchitecture.Domain.Core", "OnionArchitecture.Domain.Core\OnionArchitecture.Domain.Core.csproj", "{06B6B677-9F56-4B36-ABCE-AF8C4E2E116E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.Domain.Interfaces", "OnionArchitecture.Domain.Interfaces\OnionArchitecture.Domain.Interfaces.csproj", "{23A65054-6F84-4A0A-83B2-E4E15283DEBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnionArchitecture.Domain.Interfaces", "OnionArchitecture.Domain.Interfaces\OnionArchitecture.Domain.Interfaces.csproj", "{23A65054-6F84-4A0A-83B2-E4E15283DEBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchtecture.Services.Interfaces", "OnionArchtecture.Services.Interfaces\OnionArchtecture.Services.Interfaces.csproj", "{C7139A79-B8A2-46A9-8C90-4C8B2D6740A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnionArchitecture.Services.Interfaces", "OnionArchtecture.Services.Interfaces\OnionArchitecture.Services.Interfaces.csproj", "{C7139A79-B8A2-46A9-8C90-4C8B2D6740A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.Infrastructure.Data", "OnionArchitecture.Infrastructure.Data\OnionArchitecture.Infrastructure.Data.csproj", "{3F2303D2-EC20-4FDB-AE09-B41E997C481B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnionArchitecture.Infrastructure.Data", "OnionArchitecture.Infrastructure.Data\OnionArchitecture.Infrastructure.Data.csproj", "{3F2303D2-EC20-4FDB-AE09-B41E997C481B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.Infrastructure.Business", "OnionArchitecture.Infrastructure.Business\OnionArchitecture.Infrastructure.Business.csproj", "{C64345FA-9511-4A0F-853B-9A589164F15E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnionArchitecture.Infrastructure.Business", "OnionArchitecture.Infrastructure.Business\OnionArchitecture.Infrastructure.Business.csproj", "{C64345FA-9511-4A0F-853B-9A589164F15E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
